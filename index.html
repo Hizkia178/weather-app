@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Neumorphism Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- FontAwesome -->
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="weather-container">
+            <div class="weather-header">
+                <h1>Weather Forecast</h1>
+                <div class="location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span id="city">Loading...</span>, <span id="country">---</span>
+                </div>
+                <div class="date">
+                    <i class="far fa-calendar-alt"></i>
+                    <span id="date">--/--/----</span>
+                </div>
+            </div>
+            <div class="weather-main">
+                <div class="weather-icon">
+                    <i class="fas fa-sun"></i> <!-- Placeholder for weather icon -->
+                </div>
+                <div class="temperature">
+                    <span id="temperature">--</span>°C
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="detail-item">
+                    <i class="fas fa-tint"></i>
+                    <span id="humidity">Humidity: --%</span>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-wind"></i>
+                    <span id="wind-speed">Wind: -- km/h</span>
+                </div>
+                <div class="detail-item">
+                    <i class="far fa-clock"></i>
+                    <span id="time">--:--</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
